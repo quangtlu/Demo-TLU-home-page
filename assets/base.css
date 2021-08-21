@@ -1,0 +1,34 @@
+:root{
+    --blue-color:#000a3d;
+    --red-color:#D91E1E;
+    --white-color:#fff;
+}
+::selection {
+    background: var(--red-color);
+    color: #fff;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all linear 0.2s;
+}
+html{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family:'Roboto', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.full {
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
