@@ -656,3 +656,153 @@
         padding-left: 0;
     }
 }
+@media (max-width:375px){
+
+    .swiper-button-prev {
+        left: 75%;
+    }
+    .quote-left-icon {
+        font-size: 4rem;
+        color: var(--blue-color);
+        transform: rotateY(
+    180deg
+    );
+        margin-left: 260px;
+    }
+    .swiper-slide{
+    width:301px;
+    }
+    .event-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.9rem;
+    color: var(--white-color);
+    line-height: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+}
+
+@media (max-width:320px){
+    .number-sudent-plus-icon {
+        position: absolute;
+        font-size: 1.5rem;
+        font-weight: 900;
+        top: 36px;
+        right: 66px;
+    }
+    .quote-left-icon {
+        font-size: 3rem;
+        color: var(--blue-color);
+        transform: rotateY(
+    180deg
+    );
+        margin-left: 204px;
+    }
+    .inspire-text-content {
+        padding-top: 25px;
+        font-size: 1.6rem;
+        line-height: 1.5;
+        font-weight: bold;
+        margin-right: 0px;
+    }
+    .swiper-button-prev {
+        left: auto;
+        right: 20%;
+    }
+    .content-event-more {
+        padding: 0 30px;
+    }
+    .major-khoa-title {
+        font-size: 1.7rem;
+        margin-right: 20px;
+        font-weight: bold;
+        color: var(--red-color);
+    }
+    .title-slide {
+        position: absolute;
+        top: 21%;
+        left: 25px;
+        color: var(--white-color);
+        font-size: 1.8rem;
+        width: 41%;
+        line-height: 1.5;
+        animation: fadeInRight 1s ease;
+    } 
+    .tlu-life-cook {
+        width: auto;
+        height: 70px;
+        top: 130px;
+    }
+    .life-tlu-text-heading {
+        font-size: 2.8rem;
+        line-height: 1;
+        margin-bottom: 32px;
+    }
+    .number-student-title {
+        font-size: 1.7rem;
+    }
+    .number-student-title {
+        font-size: 1.7rem;
+    }
+    .show-more-btn {
+        width: 79px;
+        height: 30px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.1rem;
+        color: var(--blue-color);
+        font-weight: bold;
+        margin-bottom: 48px;
+    }
+    .title-event-news-more {
+        color: var(--white-color);
+        font-size: 1.3rem;
+        line-height: 1.5;
+    }  
+    .seemoreBtn {
+        color: var(--white-color);
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .content-event-more {
+        margin-left: 0;
+    }
+    .notice-content {
+        font-size: 1.4rem;
+        font-weight: 500;
+    }
+    .tuyensinh-content-title {
+        font-size: 2.5rem;
+        line-height: 1.4;
+        padding-bottom: 25px;
+    }
+    .event-link {
+        display: block;
+        text-decoration: none;
+        font-size: 1.6rem;
+        color: var(--white-color);
+        line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 7.8px;
+    }
+    .return {
+        max-width: 644px;
+        opacity: 0.5;
+        padding: 10px 0;
+        margin-left: 60px;
+        font-size: 1.3rem;
+        line-height: 1.5;
+        border-bottom: 1px solid var(--white-color);
+    }
+    .menu-child-item {
+        padding: 10px 0px;
+        font-size: 1.5rem;
+        line-height: 1.5;
+        border-bottom: 1px solid var(--white-color);
+    }
+    .menu-child-item__menu-list-item {
+        font-size: 1.4rem;
+        padding: 8px 0;
+    }
+}
