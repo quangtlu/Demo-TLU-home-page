@@ -771,12 +771,12 @@
     font-size:12rem;
     line-height: 1.5;
 }
-.number-sudent-plus-icon{
-    position:absolute;
+.number-sudent-plus-icon {
+    position: absolute;
     font-size: 3rem;
     font-weight: 900;
     top: 60px;
-    right:132px;
+    right: 116px;
 }
 .number-student-title{
     font-size:1.8rem
