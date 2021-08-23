@@ -194,14 +194,14 @@
         line-height: 1.5;
     }
     .quote-left-icon{
-        font-size: 14rem;
+        font-size: 10rem;
         color: var(--blue-color);
         transform: rotateY(180deg);
         margin-left: 0;
     }
     .inspire-text-content {
         padding-top: 30px;
-        font-size: 2.9rem;
+        font-size: 2rem;
         line-height: 1.2;
         font-weight: bold;
         margin-right: 50px;
@@ -271,7 +271,7 @@
         height:126px;
         top: 150px;
     }
-    .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+    .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide2 {
         min-height:600px;
     }
     .swiper-button-next, .swiper-button-prev {
@@ -293,7 +293,7 @@
     .wrap-slide2 {
         padding-top: 0;
     }
-    .swiper-slide .swiper-slide-active{
+    .swiper-slide2 .swiper-slide-active{
         width: 486px;
     }
 }
@@ -513,7 +513,7 @@
         padding:0;
     }
     .quote-left-icon {
-        font-size: 7rem;
+        font-size: 3.8rem;
         color: var(--blue-color);
         transform: rotateY(180deg);
         margin-left: 260px;
@@ -521,7 +521,7 @@
     }
     .inspire-text-content {
         padding-top: 25px;
-        font-size: 1.9rem;
+        font-size: 1.7rem;
         line-height: 1.5;
         font-weight: bold;
         margin-right: 0px;
@@ -533,15 +533,18 @@
         margin-top: 80px;
         height:100%;
     }
-    .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide {
+    .swiper-container-autoheight, .swiper-container-autoheight .swiper-slide2 {
         min-height:450px;
+    }
+    .swiper-slide2{
+        width: 334px !important;
     }
     .swiper-button-next, .swiper-button-prev {
         position: absolute;
         top: 96%;
     }
     .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
-        left: 249px;
+        left: 75%;
         right: auto;
     }
     .event-news{
@@ -655,64 +658,101 @@
     .num-col-2 {
         padding-left: 0;
     }
+    .life-tlu-text-heading {
+        font-size: 3.2rem;
+        line-height: 1;
+        margin-bottom: 32px;
+    }
 }
-@media (max-width:375px){
-
-    .swiper-button-prev {
-        left: 75%;
+@media (min-width:640px) and (max-width:739px){
+    .swiper-slide2 {
+        width: 545px !important;
     }
-    .quote-left-icon {
-        font-size: 4rem;
-        color: var(--blue-color);
-        transform: rotateY(
-    180deg
-    );
-        margin-left: 260px;
+}
+@media (min-width:600px) and (max-width:639px){
+    .swiper-slide2 {
+        width: 508px !important;
     }
-    .swiper-slide{
-    width:301px;
+}
+@media (min-width:540px) and (max-width:599px){
+    .swiper-slide2 {
+    width: 397px !important;
     }
     .event-link {
-    display: block;
-    text-decoration: none;
-    font-size: 1.9rem;
-    color: var(--white-color);
-    line-height: 1;
-    padding-top: 20px;
-    padding-bottom: 20px;
+        display: block;
+        text-decoration: none;
+        font-size: 3.8rem;
+        color: var(--white-color);
+        line-height: 1.3;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
 }
+@media (min-width:480px) and (max-width:539px){
+    .swiper-slide2 {
+    width: 397px !important;
+    }
+    .event-link {
+        display: block;
+        text-decoration: none;
+        font-size: 2.8rem;
+        color: var(--white-color);
+        line-height: 1.3;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+}
+@media (min-width:414px) and (max-width:479px){
+    .swiper-slide2 {
+    width: 336px !important;
+    }
+}
+@media (min-width:411px) and (max-width:413px){
+    .swiper-slide2 {
+    width: 333.8px !important;
+    }
+}
+@media (min-width:384px) and (max-width:410px){
+    .swiper-slide2 {
+        width: 307.4px !important;
+    }
+}
+@media (min-width:375px) and (max-width:383px){
+    .swiper-slide2 {
+        width: 299.4px !important;
+    }
 }
 
-@media (max-width:320px){
-    .number-sudent-plus-icon {
-        position: absolute;
-        font-size: 1.5rem;
-        font-weight: 900;
-        top: 36px;
-        right: 66px;
+@media(min-width:412px) and (max-width:413px) {
+    .swiper-slide2 {
+        width: 333.4px !important;
     }
-    .quote-left-icon {
-        font-size: 3rem;
+}
+@media (min-width:360px) and (max-width:374px){
+    .swiper-slide2 {
+        width: 285px !important;
+    }
+    .event-link {
+        display: block;
+        text-decoration: none;
+        font-size: 1.7rem;
+        color: var(--white-color);
+        line-height: 1;
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .show-more-btn {
+        width: 80px;
+        height: 34px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
         color: var(--blue-color);
-        transform: rotateY(
-    180deg
-    );
-        margin-left: 204px;
-    }
-    .inspire-text-content {
-        padding-top: 25px;
-        font-size: 1.6rem;
-        line-height: 1.5;
         font-weight: bold;
-        margin-right: 0px;
+        margin-bottom: 48px;
     }
-    .swiper-button-prev {
-        left: auto;
-        right: 20%;
-    }
-    .content-event-more {
-        padding: 0 30px;
-    }
+}
+@media (min-width:320px) and (max-width:359px){
     .major-khoa-title {
         font-size: 1.7rem;
         margin-right: 20px;
@@ -721,61 +761,112 @@
     }
     .title-slide {
         position: absolute;
-        top: 21%;
+        top: 31%;
         left: 25px;
         color: var(--white-color);
-        font-size: 1.8rem;
-        width: 41%;
-        line-height: 1.5;
+        font-size: 1.3rem;
+        width: 40%;
+        line-height: 2.2rem;
         animation: fadeInRight 1s ease;
-    } 
-    .tlu-life-cook {
-        width: auto;
-        height: 70px;
-        top: 130px;
     }
-    .life-tlu-text-heading {
+    .number-sudent-plus-icon {
+        position: absolute;
+        font-size: 1.5rem;
+        font-weight: 900;
+        top: 36px;
+        right: 73px;
+    }
+    .quote-left-icon {
         font-size: 2.8rem;
+        color: var(--blue-color);
+        transform: rotateY(
+    180deg
+    );
+        margin-left: 223px;
+    }
+    .swiper-slide2 {
+        width: 248.7px !important;
+    }
+    .swiper-button-prev{
+        left:73%;
+    }
+    .event-link {
+        display: block;
+        text-decoration: none;
+        font-size: 1.4rem;
+        color: var(--white-color);
         line-height: 1;
-        margin-bottom: 32px;
-    }
-    .number-student-title {
-        font-size: 1.7rem;
-    }
-    .number-student-title {
-        font-size: 1.7rem;
+        padding-top: 20px;
+        padding-bottom: 19px;
     }
     .show-more-btn {
-        width: 79px;
-        height: 30px;
+        width: 80px;
+        height: 29px;
         border: none;
         cursor: pointer;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         color: var(--blue-color);
         font-weight: bold;
         margin-bottom: 48px;
     }
     .title-event-news-more {
         color: var(--white-color);
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         line-height: 1.5;
-    }  
+        padding-right: 25px;
+    }
     .seemoreBtn {
         color: var(--white-color);
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-weight: bold;
     }
-    .content-event-more {
-        margin-left: 0;
+}
+@media (max-width:319px){
+    .title-slide {
+        position: absolute;
+        top: 32.3%;
+        left: 25px;
+        color: var(--white-color);
+        font-size: 1.1rem;
+        width: 41%;
+        line-height: 1.5;
+        animation: fadeInRight 1s ease;
     }
-    .notice-content {
+    .major-khoa-title {
         font-size: 1.4rem;
-        font-weight: 500;
+        margin-right: 20px;
+        font-weight: bold;
+        color: var(--red-color);
     }
-    .tuyensinh-content-title {
-        font-size: 2.5rem;
-        line-height: 1.4;
-        padding-bottom: 25px;
+    .major-body-heading {
+        font-size: 2rem;
+        line-height: 1.5;
+        color: var(--blue-color);
+        font-weight: 800;
+        padding-bottom: 40px;
+    }
+    .tlu-life-cook {
+        width: 100px;
+        height: 80px;
+        top: 130px;
+    }
+    .number-sudent-plus-icon {
+        position: absolute;
+        font-size: 1.5rem;
+        font-weight: 900;
+        top: 36px;
+        right: 33px;
+    }
+    .number-student-title {
+        font-size: 1.8rem;
+        line-height: 1.5;
+    }
+    .swiper-slide2 {
+        width: 210px !important;
+    }
+    .swiper-button-prev{
+        left: 68%;
+        right: auto;
     }
     .event-link {
         display: block;
@@ -783,26 +874,26 @@
         font-size: 1.6rem;
         color: var(--white-color);
         line-height: 1;
-        padding-top: 20px;
-        padding-bottom: 7.8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
-    .return {
-        max-width: 644px;
-        opacity: 0.5;
-        padding: 10px 0;
-        margin-left: 60px;
-        font-size: 1.3rem;
-        line-height: 1.5;
-        border-bottom: 1px solid var(--white-color);
+    .show-more-btn {
+        width: 72px;
+        height: 22px;
+        border: none;
+        cursor: pointer;
+        font-size: 1.2rem;
+        color: var(--blue-color);
+        font-weight: bold;
+        margin-bottom: 48px;
     }
-    .menu-child-item {
-        padding: 10px 0px;
-        font-size: 1.5rem;
-        line-height: 1.5;
-        border-bottom: 1px solid var(--white-color);
-    }
-    .menu-child-item__menu-list-item {
+    .title-event-news-more {
+        color: var(--white-color);
         font-size: 1.4rem;
-        padding: 8px 0;
+        line-height: 1.5;
+    }
+    .connect-heading {
+        font-size: 2.6rem;
     }
 }
+
