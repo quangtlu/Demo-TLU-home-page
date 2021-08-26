@@ -152,7 +152,7 @@ window.onscroll = function() {
 if(mobile.matches){
   window.onscroll = function() {
     //show and hide back home button
-    if(document.documentElement.scrollTop > 5950){ 
+    if(document.documentElement.scrollTop >= 5163){ 
       backBtn.style.display = "block";
       backBtn.classList.add("animate__fadeInDown","animate__animated");
     }
@@ -165,7 +165,7 @@ if(mobile.matches){
 if(tablet.matches){
   window.onscroll = function() {
     //show and hide back home button
-    if(document.documentElement.scrollTop >= 4890){ 
+    if(document.documentElement.scrollTop >= 4160){ 
       backBtn.style.display = "block";
       backBtn.classList.add("animate__fadeInDown","animate__animated");
     }
